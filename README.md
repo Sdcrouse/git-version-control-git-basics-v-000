@@ -17,7 +17,7 @@ make Git work for us.
 ## Identify How to Initialize a Git Repository with `git init`
 
 Git operates on a directory level. When we have a new directory that we want to
-track our files in, we need to _intialize_ the directory as a Git repository.
+track our files in, we need to _initialize_ the directory as a Git repository.
 That means Git will then pay attention to what goes on in the directory and give
 us all the Git superpowers.
 
@@ -60,7 +60,7 @@ directory to a plain-old, unprotected directory.
 
 ## Check the Status of a Repository with `git status`
 
-Now we have Git watching this directory, let's see what it can tell us about the
+Now that we have Git watching this directory, let's see what it can tell us about the
 directory. The command we use for this is `git status`.
 
 ```
@@ -146,7 +146,7 @@ in our repository by making _commits_.
 ## Create a Commit and Apply a Commit Message with `git commit`
 
 Remember: `git add` got our changes to the repository ready in the previous step. Those
-changes are the ones that will be "captured" with out commit.
+changes are the ones that will be "captured" with our commit.
 
 To make our first commit, type: `git commit -m "Initial commit"`.
 
@@ -161,7 +161,7 @@ my-git-project $ git commit -m "Initial commit"
 
 We can see that Git has created a new version of our repo, represented by the
 _SHA_ `e55477d`. SHAs are the identification system that `git` uses to keep track
-of versions; they're long complex numberes and letters that are unlikely to be
+of versions; they're long complex numbers and letters that are unlikely to be
 duplicated.
 
 The `commit` command committed 1 file.
@@ -208,7 +208,7 @@ you're ready to preserve changes, you can `git add` the files (or directories of
 `git add <filename or path>` command.
 
 Once your changes have been added, or "staged," use `git commit -m` to commit them
-with a explanatory message. You can shorten the `add` + `commit` process, provided
+with an explanatory message. You can shorten the `add` + `commit` process, provided
 that all the files are being tracked by using `git commit -am "A Message"`.
 
 If we've followed all these steps, our `my-git-project` directory is now a `git`
